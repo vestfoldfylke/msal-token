@@ -1,0 +1,30 @@
+{
+  "name": "@vestfoldfylke/msal-token",
+  "version": "1.0.0",
+  "description": "Small wrapper around msal-node for getting tokens from Microsoft (with certificate or secret)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vestfoldfylke/msal-token.git"
+  },
+  "keywords": [
+    "msal",
+    "token"
+  ],
+  "author": "jorgtho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vestfoldfylke/msal-token/issues"
+  },
+  "homepage": "https://github.com/vestfoldfylke/msal-token#readme",
+  "dependencies": {
+    "@azure/msal-node": "^1.17.0",
+    "node-forge": "^1.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
